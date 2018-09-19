@@ -1,0 +1,300 @@
+﻿body {
+    overflow-x: auto;
+    /*overflow-y: auto;*/
+}
+
+.contents {
+    position: absolute;
+    top: 50px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    
+}
+
+    .contents .header-add-member {
+        height: 65px;
+        position: relative;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        box-shadow: #888 0 0 10px;
+        z-index: 10;
+    }
+
+    .contents .form-info {
+        position: absolute;
+        top: 65px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        overflow-y: auto;
+    }
+
+    .contents .form-contact-info {
+        box-shadow: #888 0 2px 6px;
+        margin: 10px 16px 6px 16px;
+        position: relative;
+        left: 0px;
+        right: 0px;
+        /*left: 16px;
+        right: 16px;
+        top: 10px;
+        bottom: 6px;*/
+        border-radius: 4px;
+        min-width: 750px;
+    }
+
+        .contents .form-contact-info .head-contact-info {
+            padding: 20px 16px 0px 16px;
+            display: flex;
+            height: 33px;
+        }
+
+            .contents .form-contact-info .head-contact-info .title-contact-info {
+                line-height: 33px;
+                color: #0C68B5;
+                font-size: 16px;
+                padding: 0 10px 0 0;
+                white-space: nowrap;
+            }
+
+            .contents .form-contact-info .head-contact-info .hr {
+                border-top: 1px solid #0C68B5;
+                width: 100%;
+                margin-top: 16px;
+            }
+
+        .contents .form-contact-info .first-block {
+            display: flex;
+            margin: 0 16px;
+        }
+
+        .contents .form-contact-info .second-block {
+            margin-top: 21px;
+            border-top: 1px solid #CFD8DC;
+            padding-top: 14px;
+        }
+        
+        .contents .form-contact-info .last-block {
+            padding-bottom: 20px;
+        }
+        
+            .contents .form-contact-info .first-block .block {
+                width: 50%;
+            }
+            
+            .contents .form-contact-info .first-block .block-right {
+                padding-left: 20px;
+            }
+
+
+                .contents .form-contact-info .first-block .block .row-input {
+                    padding-top: 8px;
+                    display: flex;
+                }
+
+                    .contents .form-contact-info .first-block .block .row-input .title-block {
+                        height: 32px;
+                        line-height: 32px;
+                        font-weight: bold;
+                    }
+
+                    .contents .form-contact-info .first-block .block .row-input .label-input {
+                        width: 110px;
+                        min-width: 110px;
+                        height: 32px;
+                        white-space: nowrap;
+                        line-height: 32px;
+                        display: flex;
+                    }
+
+                    .contents .form-contact-info .first-block .block .row-input .label-input-long {
+                        display: flex;
+                        width: 110px;
+                        min-width: 110px;
+                        height: 44px;
+                        line-height: 22px;
+                    }
+
+                        .contents .form-contact-info .first-block .block .row-input .label-input .icon-skype {
+                            height: 32px;
+                            width: 22px;
+                            margin-right: 4px;
+                            background-image: url('../Contents/Images/img-add-member-2/Skype20.png');
+                            background-repeat: no-repeat;
+                            background-position: 1px 5px;
+                        }
+
+                        .contents .form-contact-info .first-block .block .row-input .label-input .icon-facebook {
+                            height: 32px;
+                            width: 22px;
+                            margin-right: 4px;
+                            background-image: url('../Contents/Images/img-add-member-2/Face20.png');
+                            background-repeat: no-repeat;
+                            background-position: 1px 5px;
+                        }
+
+                        .contents .form-contact-info .first-block .block .row-input .label-input .icon-msn {
+                            height: 32px;
+                            width: 22px;
+                            margin-right: 4px;
+                            background-image: url('../Contents/Images/img-add-member-2/Msn18x17.png');
+                            background-repeat: no-repeat;
+                            background-position: 2px 7.5px;
+                        }
+
+                    .contents .form-contact-info .first-block .block .row-input .box-input {
+                        width: 100%;
+                        padding-left: 8px;
+                        line-height: 32px;
+                        min-width: 225px;
+                        max-height: 58px;
+                        position: relative;
+                    }
+                    
+                        .contents .form-contact-info .first-block .block .row-input .box-input .input-select {
+                            width: inherit;
+                            display: flex;
+                        }
+
+                            .contents .form-contact-info .first-block .block .row-input .box-input .input-select-three input {
+                                width: inherit;
+                                height: 28px;
+                                padding-left: 6px;
+                                box-sizing: border-box;
+                                outline: none;
+                                border: 1px solid #D9D9D9;
+                                border-top-left-radius: 3px;
+                                border-bottom-left-radius: 3px;
+                                border-right: none;
+                            }
+
+                            .contents .form-contact-info .first-block .block .row-input .box-input .input-select-three .icon-drop-option {
+                                width: 28px;
+                                min-width: 28px;
+                                height: 28px;
+                                border: 1px solid #D9D9D9;
+                                border-left: none;
+                                box-sizing: border-box;
+                                background-image: url('../Contents/Images/img-add-member-2/cbo-trigger-9x6.png');
+                                background-repeat: no-repeat;
+                                background-position: 9px 10px;
+                                cursor: pointer;
+                            }
+
+                            .contents .form-contact-info .first-block .block .row-input .box-input .input-select-three .icon-dot-vertical {
+                                width: 28px;
+                                min-width: 28px;
+                                height: 28px;
+                                border: 1px solid #D9D9D9;
+                                border-left: none;
+                                border-top-right-radius: 3px;
+                                border-bottom-right-radius: 3px;
+                                box-sizing: border-box;
+                                background-image: url('../Contents/Images/img-add-member-2/more-16x16.png');
+                                background-repeat: no-repeat;
+                                background-position: 6px 6px;
+                                cursor: pointer;
+                                display: inline-block;
+                            }
+
+                            .contents .form-contact-info .first-block .block .row-input .box-input .input-select-one input {
+                                width: inherit;
+                                height: 28px;
+                                padding-left: 6px;
+                                box-sizing: border-box;
+                                outline: none;
+                                border: 1px solid #D9D9D9;
+                                border-radius: 3px;
+                            }
+
+                            .contents .form-contact-info .first-block .block .row-input .box-input .input-select-two input {
+                                width: inherit;
+                                height: 28px;
+                                padding-left: 6px;
+                                box-sizing: border-box;
+                                outline: none;
+                                border: 1px solid #D9D9D9;
+                                border-top-left-radius: 3px;
+                                border-bottom-left-radius: 3px;
+                                border-right: none;
+                            }
+
+                            .contents .form-contact-info .first-block .block .row-input .box-input .input-select-two .icon-drop-option {
+                                width: 28px;
+                                min-width: 28px;
+                                height: 28px;
+                                border: 1px solid #D9D9D9;
+                                border-left: none;
+                                border-top-right-radius: 3px;
+                                border-bottom-right-radius: 3px;
+                                box-sizing: border-box;
+                                background-image: url('../Contents/Images/img-add-member-2/cbo-trigger-9x6.png');
+                                background-repeat: no-repeat;
+                                background-position: 9px 10px;
+                                cursor: pointer;
+                            }
+
+                        .contents .form-contact-info .first-block .block .row-input .box-input .list-option {
+                            position: absolute;
+                            width: inherit;
+                            width: calc(100% - 8px);
+                            background: #ffffff;
+                            box-sizing: border-box;
+                            border: 1px solid #D9D9D9;
+                            border-top: none;
+                            z-index: 11;
+                            max-height: 230px;
+                            overflow: auto;
+                            display: none;
+                        }
+                        
+                            .contents .form-contact-info .first-block .block .row-input .box-input .list-option .option{
+                                height: 32px;
+                                line-height: 32px;
+                                padding: 2px;
+                            }
+
+                                .contents .form-contact-info .first-block .block .row-input .box-input .list-option .option:hover {
+                                    background: #D6E9F6;
+                                }
+
+                        .contents .form-contact-info .first-block .block .row-input .box-input textarea {
+                            width: inherit;
+                            padding: 4px 6px;
+                            box-sizing: border-box;
+                            outline: none;
+                            border: 1px solid #D9D9D9;
+                            border-radius: 3px;
+                            resize: none;
+                        }
+
+                        .contents .form-contact-info .first-block .block .row-input .box-input .form-check {
+                            width: inherit;
+                            height: 32px;
+                            display: flex;
+                        }
+
+                            .contents .form-contact-info .first-block .block .row-input .box-input .form-check .label-check {
+                                line-height: 32px;
+                                padding-left: 4px; 
+                            }
+
+                            .contents .form-contact-info .first-block .block .row-input .box-input .form-check .unchecked {
+                                width: 22px;
+                                height: 22px;
+                                margin: 5px 0px;
+                                background-image: url('../Contents/Images/img-add-member-2/input-checkbox.png');
+                                background-repeat: no-repeat;
+                                background-position: -23px 0px;
+                            }
+                            
+                            .contents .form-contact-info .first-block .block .row-input .box-input .form-check .checked {
+                                width: 22px;
+                                height: 22px;
+                                margin: 5px 0px;
+                                background-image: url('../Contents/Images/img-add-member-2/input-checkbox.png');
+                                background-repeat: no-repeat;
+                                background-position: -23px -23px;
+                            }

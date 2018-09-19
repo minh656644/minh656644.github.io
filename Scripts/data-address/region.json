@@ -1,0 +1,254 @@
+﻿[
+  {
+    "region": "An Giang",
+    "country": "vn"
+  },
+  {
+    "region": "Đắk Nông",
+    "country": "vn"
+  },
+  {
+    "region": "Gia Lai",
+    "country": "vn"
+  },
+  {
+    "region": "Hậu Giang",
+    "country": "vn"
+  },
+  {
+    "region": "Hồ Chí Minh",
+    "country": "vn"
+  },
+  {
+    "region": "Kon Tum",
+    "country": "vn"
+  },
+  {
+    "region": "Long An",
+    "country": "vn"
+  },
+  {
+    "region": "Cần Thơ",
+    "country": "vn"
+  },
+  {
+    "region": "Đà Nẵng",
+    "country": "vn"
+  },
+  {
+    "region": "Hà Nội",
+    "country": "vn"
+  },
+  {
+    "region": "Hải Phòng",
+    "country": "vn"
+  },
+  {
+    "region": "Bà Rịa - Vũng Tàu",
+    "country": "vn"
+  },
+  {
+    "region": "Bắc Giang",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Bac Kan",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Bac Lieu",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Bac Ninh",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Ben Tre",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Binh Duong",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Binh GJinh",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Binh Phuoc",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Binh Thuan",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Ca Mau",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Cao Bang",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Dien Bien",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh GJak Lak",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh GJong Nai",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh GJong Thap",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Ha Giang",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Ha Nam",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Ha Tinh",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Hai Duong",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Hoa Binh",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Hung Yen",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Khanh Hoa",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Kien Giang",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Lai Chau",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Lam GJong",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Lang Son",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Lao Cai",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Nam GJinh",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Nghe An",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Ninh Binh",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Ninh Thuan",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Phu Tho",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Phu Yen",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Quang Binh",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Quang Nam",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Quang Ngai",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Quang Ninh",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Quang Tri",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Soc Trang",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Son La",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Tay Ninh",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Thai Binh",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Thai Nguyen",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Thanh Hoa",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Thua Thien-Hue",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Tien Giang",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Tra Vinh",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Tuyen Quang",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Vinh Long",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Vinh Phuc",
+    "country": "vn"
+  },
+  {
+    "region": "Tinh Yen Bai",
+    "country": "vn"
+  }
+]

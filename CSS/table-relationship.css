@@ -1,0 +1,269 @@
+﻿.modal {
+    z-index: 12;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(204,204,204,.5);
+}
+
+    .modal .modal-contents {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #ffffff;
+    }
+    
+    .modal .modal-size {
+        width: 800px;
+        height: 600px;
+    }
+
+        .modal .modal-contents .modal-header {
+            position: relative;
+            height: 35px;
+            background: #0072BC;
+            padding: 0 15px;
+            display: flex;
+            /*cursor:move;*/
+        }
+
+            .modal .modal-contents .modal-header .modal-title{
+                color: #ffffff;
+                line-height: 35px;
+            }
+
+            .modal .modal-contents .modal-header .modal-button {
+                position: absolute;
+                right: 15px;
+                display: flex;
+            }
+
+                .modal .modal-contents .modal-header .modal-button .btn-maxsize {
+                    height: 35px;
+                    width: 35px;
+                    background-image: url('../Contents/Images/table/maxsize.png');
+                    background-repeat: no-repeat;
+                    background-position: 11px 11px;
+                    cursor: pointer;
+                }
+
+                .modal .modal-contents .modal-header .modal-button .btn-restore {
+                    height: 35px;
+                    width: 35px;
+                    background-image: url('../Contents/Images/table/restore.png');
+                    background-repeat: no-repeat;
+                    background-position: 11px 11px;
+                    cursor: pointer;
+                }
+
+                .modal .modal-contents .modal-header .modal-button .btn-close {
+                    height: 35px;
+                    width: 25px;
+                    background-image: url('../Contents/Images/table/window-close16.png');
+                    background-repeat: no-repeat;
+                    background-position: 9px 9px;
+                    cursor: pointer
+                }
+
+
+        .modal .modal-contents .modal-body {
+            position: absolute;
+            top: 35px;
+            bottom: 47px;
+            width: inherit;
+            padding: 8px 16px 0px 16px;
+            box-sizing: border-box;
+        }
+
+            .modal .modal-contents .modal-body .header-table {
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+                .modal .modal-contents .modal-body .header-table table {
+                    width: inherit;
+                    border-collapse: collapse;
+                    box-sizing: border-box;
+                }
+
+                .modal .modal-contents .modal-body .header-table table, td, th {
+                    border: 1px solid #BFBFBF;
+                    box-sizing: border-box;
+                }
+
+                .modal .modal-contents .modal-body .header-table td {
+                    height: 32px;
+                }
+
+                    .modal .modal-contents .modal-body .header-table td:last-of-type {
+                        padding-left: 89px;
+                    }
+
+                    .modal .modal-contents .modal-body .header-table td input {
+                        width: -webkit-fill-available;
+                        padding: 0 3px;
+                        box-sizing: border-box;
+                        border: none;
+                        outline: none;
+                    }
+
+                    .modal .modal-contents .modal-body .header-table td .checked {
+                        display: block;
+                        width: 22px;
+                        height: 22px;
+                        background-image: url('../Contents/Images/img-add-member-2/input-checkbox.png');
+                        background-repeat: no-repeat;
+                        background-position: -23px -22px;
+                    }
+                    
+                    .modal .modal-contents .modal-body .header-table td .unchecked {
+                        display: block;
+                        width: 22px;
+                        height: 22px;
+                        background-image: url('../Contents/Images/img-add-member-2/input-checkbox.png');
+                        background-repeat: no-repeat;
+                        background-position: -23px 0px;
+                    }
+
+                .modal .modal-contents .modal-body .header-table th {
+                    background: #F0F0F0;
+                    height: 32px;
+                }
+                    
+                    .modal .modal-contents .modal-body .header-table table .column-200px {
+                        width: 200px;
+                    }
+
+            .modal .modal-contents .modal-body .body-table {
+                width: 100%;
+                max-height: 446px;
+                box-sizing: border-box;
+                overflow-y: scroll;
+            }
+            
+                .modal .modal-contents .modal-body .body-table {
+                    width: 100%;
+                    box-sizing: border-box;
+                }
+
+                    .modal .modal-contents .modal-body .body-table table {
+                        width: inherit;
+                        border-collapse: collapse;
+                        box-sizing: border-box;
+                    }
+
+                    .modal .modal-contents .modal-body .body-table table, td {
+                        border: 1px solid #BFBFBF;
+                        box-sizing: border-box;
+                    }
+
+                    .modal .modal-contents .modal-body .body-table td {
+                        padding: 0 10px;
+                        height: 32px;
+                    }
+
+                    .modal .modal-contents .modal-body .body-table tr:nth-child(even) {
+                        background: #F0F0F0;
+                    }
+                    
+                    .modal .modal-contents .modal-body .body-table td:first-of-type {
+                        width:200px;
+                    }
+
+                    .modal .modal-contents .modal-body .body-table td:last-of-type {
+                        width: 183px;
+                        padding-left: 89px;
+                    }
+
+                    .modal .modal-contents .modal-body .body-table tr:hover {
+                        background: #DEEEFB;
+                    }
+
+                        .modal .modal-contents .modal-body .body-table td .checked {
+                            display: block;
+                            width: 22px;
+                            height: 22px;
+                            background-image: url('../Contents/Images/img-add-member-2/input-checkbox.png');
+                            background-repeat: no-repeat;
+                            background-position: -23px -22px;
+                        }
+
+                        .modal .modal-contents .modal-body .body-table td .unchecked {
+                            display: block;
+                            width: 22px;
+                            height: 22px;
+                            background-image: url('../Contents/Images/img-add-member-2/input-checkbox.png');
+                            background-repeat: no-repeat;
+                            background-position: -23px 0px;
+                        }
+
+
+                
+
+
+        .modal .modal-contents .modal-footer {
+            position: absolute;
+            bottom: 0px;
+            border-top: 1px solid #D9D9D9; 
+            width: inherit;
+            height: 47px;
+            padding: 8px 16px;
+            box-sizing: border-box;
+            display: flex;
+        }
+
+            .modal .modal-contents .modal-footer .button {
+                width: 75px;
+                height: 30px;
+                border: 1px solid #B0BEC5;
+                border-radius: 3px;
+                box-sizing: border-box;
+                padding: 0 4px;
+                display: flex;
+            }
+
+                .modal .modal-contents .modal-footer .button .icon-help {
+                    height: 30px;
+                    width: inherit;
+                    background-image: url('../Contents/Images/question16.png');
+                    background-repeat: no-repeat;
+                    background-position: 5px 5px;
+                }
+
+                .modal .modal-contents .modal-footer .text {
+                    line-height: 30px;
+                    padding: 0 6px;
+                }
+
+            .modal .modal-contents .modal-footer .box-right {
+                display: flex;
+                position: absolute;
+                right: 16px;
+            }
+
+                .modal .modal-contents .modal-footer .box-right .icon-select {
+                    height: 30px;
+                    width: inherit;
+                    background-image: url('../Contents/Images/select16.png');
+                    background-repeat: no-repeat;
+                    background-position: 5px 6px;
+                }
+
+                .modal .modal-contents .modal-footer .box-right .icon-close {
+                    height: 30px;
+                    width: inherit;
+                    background-image: url('../Contents/Images/close16.png');
+                    background-repeat: no-repeat;
+                    background-position: 5px 6px;
+                }
+                
+                .modal .modal-contents .modal-footer .box-right .button-select {
+                    margin-right: 10px;
+                }
+        
+            

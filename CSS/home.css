@@ -1,0 +1,174 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-family: Helvetica,Tahoma,Arial,sans-serif !important;
+    font-size: 13px;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #025F97;
+}
+
+        .menu .header-menu .menu-header-left {
+            width: 30px;
+        }
+
+        .menu .header-menu .menu-header-right {
+            width: 200px;
+        }
+
+        .menu .list-menu .menu-left {
+            width: 30px;
+        }
+
+        .menu .list-menu .menu-right {
+            width: 200px;
+        }
+
+    .menu .header-menu {
+        display: flex;
+        height: 50px;
+        background-color: #0277BD;
+        box-shadow: 2px 0 4px RGBA(0,0,0,.2);
+    }
+
+        .menu .header-menu .icon-left-header {
+            padding: 15px 5.5px;
+            box-sizing: border-box;
+        }
+
+            .menu .header-menu .icon-left-header img {
+                margin: 4px 0;
+                cursor: pointer;
+            }
+
+        .menu .header-menu .logo {
+            height: 50px;
+            padding: 11.5px 0;
+            padding-left: 10px;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+
+    .menu .list-menu {
+        background-color: #0277BD;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+        .menu .list-menu ul {
+            padding: unset;
+            margin: unset;
+        }
+
+            .menu .list-menu ul li {
+
+            }
+
+
+                .menu .list-menu ul li .icon-menu-dropdown {
+                    width: 17px;
+                    height: 17px;
+                    background-image: url('../Contents/Images/arraw.png');
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    right: 5px;
+                    margin-top: 9px;
+                }
+
+                .menu .list-menu ul li .icon-menu-dropup {
+                    width: 17px;
+                    height: 17px;
+                    background-image: url('../Contents/Images/arraw-r.png');
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    right: 5px;
+                    margin-top: 9px;
+                }
+
+                .menu .list-menu ul li .icon-drop-right {
+                    width: 17px;
+                    height: 17px;
+                    background-image: url('../Contents/Images/arr-right.png');
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    right: 4px;
+                    margin-top: 10px;
+                }
+
+                .menu .list-menu ul li .menu-li {
+                    display: flex;
+                    border-top: 1px solid #3289BD;
+                    border-bottom: 1px solid #025F97;
+                    height: 35px;
+                    position: relative;
+                }
+
+                .menu .list-menu ul li .menu-li:hover {
+                    background: #EDA235;
+                }
+
+                    .menu .list-menu ul li .menu-li .menu-icon {
+                        padding: 5.5px 3px;
+                        box-sizing: border-box;
+                    }
+
+                    .menu .list-menu ul li .menu-li .menu-text {
+                        line-height: 35px;
+                        display: flex;
+                    }
+
+                    .menu .list-menu ul li .menu-li .icon-contact {
+                        padding: 9.5px 6px;
+                        box-sizing: border-box;
+                    }
+
+
+
+                .menu .list-menu ul li ul {
+                    background: #025F97;
+                    display: none;
+                }
+
+                    .menu .list-menu ul li ul li {
+
+                    }
+
+
+                        .menu .list-menu ul li ul li .menu-li-ul-li {
+                            display: flex;
+                            border-top: 1px solid #3289BD;
+                            border-bottom: 1px solid #025F97;
+                            height: 35px;
+                            position: relative;
+                        }
+
+                            .menu .list-menu ul li ul li .menu-li-ul-li:hover {
+                                background: #EDA235;
+                            }
+
+                            .menu .list-menu ul li ul li .menu-li-ul-li .menu-icon {
+                            }
+
+                            .menu .list-menu ul li ul li .menu-li-ul-li .menu-text {
+                                line-height: 35px;
+                                padding-left: 20px;
+                                box-sizing: border-box;
+                                display: flex;
+                            }
+.main {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 230px;
+   
+}
+
+.main-left-30px {
+    left: 30px;
+}
