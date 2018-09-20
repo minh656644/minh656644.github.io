@@ -287,7 +287,7 @@
                                 margin: 5px 0px;
                                 background-image: url('../Contents/Images/img-add-member-2/input-checkbox.png');
                                 background-repeat: no-repeat;
-                                background-position: -23px 0px;
+                                background-position: -23px -23px;
                             }
                             
                             .contents .form-contact-info .first-block .block .row-input .box-input .form-check .checked {
