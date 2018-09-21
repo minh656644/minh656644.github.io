@@ -1,0 +1,459 @@
+﻿#info-all-employee-tuan-anh{
+    padding: 10px;
+    position: absolute;
+    top: 67px;                       /*phan chinh co gian cua t bi loi nen phai chinh position o top voi left o day*/
+    left: 0px;
+    background: #ECF0F2;
+    font-size: 13px;
+    width: calc(100vw - 250px);
+    height: calc(100vh - 117px);
+}
+.info-all-employee-tuan-anh-pointer:hover{
+    cursor: pointer;
+}
+
+#employee-general-info {
+    background: white;
+    height: 248px;
+    margin: 0px;
+    min-width:780px;
+    position: relative;
+    top: -3px;
+    border:1px solid #CFCFCF;
+    box-shadow:3px 3px 3px #CFCFCF;
+
+}
+
+#table-info-all-employees input{
+}
+.table-info-all-employees-bold{
+    font-weight: bold;
+}
+#table-info-all-employees th{
+    font-weight: normal;
+}
+#table-info-all-employees .table-info-all-employees-bold th{
+    font-weight: bold;
+}
+
+
+
+.employee-info-noborder{
+    border: none;
+}
+.table-info-all-employees-col1{
+    width: 119px;
+}
+.table-info-all-employees-col2{
+    width: 170px;
+}
+#employee-general-info-toolbar {
+    height: 35px;
+    right: auto;
+    left: 0px;
+    top: 0px;
+    border-bottom: 1px solid #CFCFCF;
+}
+#employee-info-toolbar-item1 {
+    width: 152px;
+}
+#employee-info-toolbar-item2{
+    width:153px;
+}
+#employee-info-toolbar-item3{
+    width:87px;
+}
+#employee-info-toolbar-item4{
+    width:174px;
+}
+#employee-info-toolbar-item5{
+    width:171px;
+}
+#employee-info-toolbar-item6{
+    width:206px;
+}
+.employee-info-toolbar-item{
+    margin: 0px 10px;
+    font-weight:normal;
+    height: 26px;
+    line-height: 26px;
+}
+.employee-info-toolbar-item-onselect{
+    color: #238DE6;
+    border-bottom: 3px solid #238DE6;
+    font-weight: bold;
+}
+.employee-info-toolbar-item:hover {
+    cursor: pointer;
+    color: #238DE6;
+    font-weight: bold;
+}
+#employee-general-info-detail {
+    height: 212px;
+    width: 100%;
+    left: 0px;
+    top: 36px;
+}
+.employee-info-toolbar-item{
+
+}
+#employee-info-img {
+    padding: 5px;
+    height: 212px;
+    margin-top: -10px;
+    display: inline-block;
+    position: relative;
+    top: -30px;
+}
+
+.employee-info-inline{
+    display:inline-block;
+    align-items:center;
+}
+.employee-info-down-ion{
+    background-image: url('../Contents/Images/cbo-trigger.png');
+    height:20px;
+    width:20px;
+    background-repeat:no-repeat;
+    background-position: 8px 7px;
+}
+#employee-info-left-icon {
+    background-image: url('../Contents/Images/tab-arr-left-disable.png');
+    height:20px;
+    width:20px;
+    background-repeat:no-repeat;
+    background-position: 5px 0px;
+    cursor: pointer;
+}
+#employee-info-right-icon {
+    background-image: url('../Contents/Images/tab-arr-right.png');
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: 5px 0px;
+    cursor: pointer;
+}
+
+#show-info-toolbar-icon {
+    background-image: url('../Contents/Images/quick-link.png');
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: 0px 4px;
+    cursor: pointer;
+}
+#setting-toolbar-info-detail-icon {
+    background-image: url('../Contents/Images/setting.png');
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: 0px -1px;
+    cursor: pointer;
+}
+#show-info-toolbar-detail {
+    display:none;
+    background: #ffffff;
+    font-size: 13px;
+    width: 570px;
+    box-shadow: 2px 5px 5px #888888;
+    position:absolute;
+    top:-350px;
+    right:3px;
+    z-index: 14;
+}
+#show-info-left-col{
+    width:246px;
+}
+#show-info-right-col {
+    position: relative;
+    top: -27px;
+}
+.show-info-toolbar-detail-Litem2{
+    line-height:24px;
+}
+#employee-info-table1 {
+    text-align: left;
+    font-weight: normal;
+}
+
+.employee-info-table-col1 {
+    max-width: 94px;
+    font-weight: normal;
+    line-height: 26px;
+    height:26px;
+    font-size:13px;
+}
+.employee-info-table-col2 {
+    max-width: 250px;
+    min-width: 219px;
+    line-height: 26px;
+    height: 26px;
+    font-size: 13px;
+}
+.employee-info-table-col3 {
+    width: 134px;
+    font-weight: normal;
+    line-height: 26px;
+    height: 26px;
+    font-size: 13px;
+}
+.employee-info-table-col4 {
+    min-width: 173px;
+    line-height: 26px;
+    height: 26px;
+    font-size: 13px;
+}
+#employee-info-table2 {
+    position:relative;
+    margin-top: 0px;
+    text-align: left;
+    top:-85px;        /* them cai nay de day bang len tai t cho no relative tu dau roi ngai sua lam sory :))*/;
+    
+}
+#cmnd-employee-info {
+    max-width: 94px;
+    font-weight: normal;
+    height: 26px;
+    font-size: 13px;
+}
+#menu-employee-info-detail{
+    overflow:hidden;
+    width:calc(100% - 100px);
+}
+.employee-info-toolbar-item{
+    width:200px;
+}
+#setting-toolbar-info-detail-content {
+    display:none;
+    width: 600px;
+    height: 400px;
+    right: auto;
+    box-shadow: 1px 5px 5px #888888;
+    z-index: 19000;
+    position: absolute;
+    top: calc(50% - 350px);
+    left: calc(50% - 400px);
+    background:white;
+}
+#setting-toolbar-info-detail-content th{
+    height:32px;
+}
+#setting-toolbar-info-detail-body{
+    width:530px;
+    padding:10px;
+    background:white;
+}
+#setting-toolbar-info-detail-lines {
+    height: 275px;
+    overflow-y: scroll;
+}
+.setting-toolbar-info-detail-col2{
+    width:600px;
+    text-align:left;
+    font-weight:normal;
+}
+#info-all-employee-tuan-anh table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.employee-info-box{
+    border:1px solid #CFCFCF;
+}
+#table-info-all-employees .employee-info-box{
+    height: 32px;
+    line-height: 32px;
+    
+}
+#setting-toolbar-info-detail-header {
+    position:relative;
+    margin-top:-16px;
+    background: #0F84E4;
+    height:32px;
+    color:#ffffff;
+    padding-left:20px;
+    line-height:32px;
+
+}
+#setting-toolbar-info-detail-closeBt {
+    position:relative;
+    top:-25px;
+    left:550px;
+    background-image: url('../Contents/Images/window-close16.png');
+    height:32px;
+    width:30px;
+    background-repeat:no-repeat;
+    cursor: pointer;
+}
+#setting-toolbar-info-detail-upBT {
+    position: relative;
+    top: -235px;
+    border: 1px solid #CFCFCF;
+    display: block;
+    background-image: url('../Contents/Images/up16.png');
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 30px;
+    background-position: 7px 8px;
+}
+#setting-toolbar-info-detail-downBT {
+    position: relative;
+    top: -230px;
+    border: 1px solid #CFCFCF;
+    display: block;
+    background-image: url('../Contents/Images/down16.png');
+    background-repeat: no-repeat;
+    height: 36px;
+    background-position: 7px 8px;
+    width: 30px;
+}
+.setting-toolbar-info-detail-BT:hover {
+    cursor: pointer;
+    background: #E2F1E9;
+}
+#setting-toolbar-info-help-BT {
+    border: 1px solid #CFCFCF;
+    background-image: url('../Contents/Images/question16.png');
+    background-repeat: no-repeat;
+    height: 30px;
+    background-position: 7px 8px;
+    width: 45px;
+    padding-left:30px;
+    margin-left:10px;
+    line-height:30px;
+}
+#setting-toolbar-info-detail-leftBT{
+    background:#ffffff;
+}
+#setting-toolbar-info-BT1 {
+    border: 1px solid #CFCFCF;
+    height: 30px;
+    width: 75px;
+    text-align: center;
+    margin-left: 10px;
+    line-height: 30px;
+}
+#setting-toolbar-info-BT2 {
+    background-image: url('../Contents/Images/select16.png');
+    border: 1px solid #CFCFCF;
+    height: 30px;
+    width: 53px;
+    padding-left: 30px;
+    text-align: center;
+    margin-left: 10px;
+    line-height: 30px;
+    background-repeat: no-repeat;
+    background-position: 7px 8px;
+}
+#setting-toolbar-info-BT3 {
+    width: 53px;
+    padding-left: 30px;
+    background-image: url('../Contents/Images/close16.png');
+    border: 1px solid #CFCFCF;
+    height: 30px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right:15px;
+    line-height: 30px;
+    width: 53px;
+    background-repeat: no-repeat;
+    background-position: 7px 8px;
+}
+
+
+.table-info-all-employees-backgound{
+    background: #F0F0F0;
+}
+#table-info-all-employees{
+    width:100%;
+    height: calc(100% - 265px);              /*neu muon chinh chieu cao thi chinh o day neu bi lech*/
+    background: white;                        
+}
+#table-info-all-employees2 {
+    height: calc(100% - 93px);    
+    margin-bottom: -4px; 
+    overflow: scroll;
+    margin-left: -4px;
+    width: calc(100% - 294px);
+    display: inline-block;
+}
+#table-info-all-employees2 th{
+    display: table-cell;
+}
+#table-info-all-employees20{
+	height: 100%;
+    position: relative;
+    bottom: calc(100% - 27px);
+    left: 298px;
+}
+#table-info-all-employees21 {    
+    margin-bottom: -4px; 
+    overflow: hidden;
+    margin-left: -4px;
+    width: calc(100% - 294px);
+    display: inline-block;
+}
+#table-info-all-employees1 {
+    height: calc(100% - 93px);     
+    margin-bottom: -4px;         
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: inline-block;
+}
+.employee-info-select-ion-menu{
+    position: absolute;
+    text-align: left;
+    border: 1px solid #CFCFCF;
+    display: none;
+    background-color: white;
+    z-index: 10;
+    font-weight: normal;
+    padding-left: 10px;
+}
+.employee-info-select-ion{
+    border-right: 1px solid #CFCFCF;
+    width: 30px;
+    margin: 0px;
+}
+.employee-info-select-ion:hover{
+    cursor: pointer;
+}
+.employee-info-down-ion:hover{
+    cursor: pointer;
+}
+#employee-info-table-footer{
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #CFCFCF;
+    background: white;
+    position: relative;
+    bottom: 100%;
+
+}
+.employee-info-table-all-button{
+    border: 1px solid #CFCFCF;
+    height: 9px;
+    width: 60px;
+    background:  url('../Contents/Images/arr-down.png');
+    background-repeat: no-repeat;
+    background-position: 20px -4px;
+    position: relative;
+    left: calc(50% - 100px);
+    top: 9px;
+}
+.employee-info-table-all-button2 {
+    border: 1px solid #CFCFCF;
+    height: 9px;
+    width: 60px;
+    background: url('../Contents/Images/arr-up.png');
+    background-repeat: no-repeat;
+    background-position: 20px -4px;
+    position: relative;
+    left: calc(50% - 100px);
+    top: 9px;
+}
+
+.text-left {
+    text-align: left;
+    padding-left: 10px;
+}

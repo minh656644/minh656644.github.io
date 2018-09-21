@@ -20,8 +20,8 @@ function ascii_slug(str) {
 $(document).ready(function () {
 
     var  countryCode = "";
-
-    var BATTUTA_KEY = "b8dbfdd0584c9c1aff4d73f1ca121af0";
+    
+    var BATTUTA_KEY = "5267f635de2ad6bfa7a5ad59cb2e8b7f"; 
 
     // đưa dữ liệu country vào ô list option
     $.ajax({

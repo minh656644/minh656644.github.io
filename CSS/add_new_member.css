@@ -1,39 +1,13 @@
 ﻿body {
-    overflow-x: auto;
+    
     /*overflow-y: auto;*/
 }
-
 .contents {
-    position: absolute;
-    top: 50px;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
-    
+    display:none;
 }
 
-    .contents .header-add-member {
-        height: 65px;
-        position: relative;
-        left: 0px;
-        right: 0px;
-        width: 100%;
-        box-shadow: #888 0 0 10px;
-        z-index: 10;
-    }
-
-    .contents .form-info {
-        position: absolute;
-        top: 65px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        overflow-y: auto;
-    }
-
     .contents .form-contact-info {
-        box-shadow: #888 0 2px 6px;
-        margin: 10px 16px 6px 16px;
+        box-shadow: #888 0 2px 6px;      
         position: relative;
         left: 0px;
         right: 0px;
@@ -41,8 +15,8 @@
         right: 16px;
         top: 10px;
         bottom: 6px;*/
-        border-radius: 4px;
-        min-width: 750px;
+        border-radius: 4px;       
+        margin-bottom: 20px;
     }
 
         .contents .form-contact-info .head-contact-info {
@@ -298,3 +272,21 @@
                                 background-repeat: no-repeat;
                                 background-position: -23px -23px;
                             }
+
+.checked {
+    width: 22px;
+    height: 22px;
+    margin: 5px 0px;
+    background-image: url('../Contents/Images/img-add-member-2/input-checkbox.png');
+    background-repeat: no-repeat;
+    background-position: -23px -23px;
+}
+
+.unchecked {
+    width: 22px;
+    height: 22px;
+    margin: 5px 0px;
+    background-image: url('../Contents/Images/img-add-member-2/input-checkbox.png');
+    background-repeat: no-repeat;
+    background-position: -23px 0px;
+}

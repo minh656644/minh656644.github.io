@@ -1,0 +1,267 @@
+.box-content {
+    position: absolute;
+    top: 50px;
+    width: calc(100vw - 230px);
+    height: calc(100vh - 50px);
+}
+
+    .box-content .box-title {
+        background-color: #fff;
+        height: 65px;
+        width: 100%;
+        box-shadow: 0 0 6px rgb(136, 136, 136);
+        border: 1px solid #ccc;
+    }
+    .box-content .box-body {
+        background-color: #fff;
+        height: calc(100vh - 117px);
+        overflow: scroll;
+        padding: 10px;
+    }
+    	.box-content .box-body .box-body-frame{
+    		right: auto;
+    		background-color: #fff;
+    		box-shadow: 0 2px 6px #888;
+    		border-radius: 4px;   		
+    		margin-bottom: 20px;
+    		padding: 20px;
+            display: none;
+    	}
+    	.box-content .box-body .box-body-frame .general-information-header div{
+			color: #0c68b5;
+			font-size: 16px;
+			min-width: 138px;
+    	}
+    		.box-content .box-body .box-body-frame .general-information-header .G-I-header-line{
+				margin-left: 10px;
+    			width: 100%;
+				height: 8px;
+				border-bottom: 1px solid #0277bd;
+    		}
+    	.box-content .box-body .box-body-frame .general-information-body{
+			margin-top: 10px;
+    	}
+
+    		/*the input va label chung cua box general-information-body*/
+    		.box-content .box-body .box-body-frame .general-information-body .div-form-input{
+    			display: flex;
+    			margin-bottom: 11px;
+    		}
+	    		.box-content .box-body .box-body-frame .general-information-body .form-input{
+	    			border: 1px solid #d9d9d9;
+	    			border-radius: 4px;
+	    			height: 28px;
+	    			outline: none;
+	    			width: 100%;
+	    			padding-left: 5px;
+	    		}
+	    			.box-content .box-body .box-body-frame .general-information-body input[placeholder]{
+	    				padding-left: 5px;
+	    			}
+					.box-content .box-body .box-body-frame .general-information-body .form-input:focus{
+						border: 1px solid #0c68b5;
+					}
+				.box-content .box-body .box-body-frame .general-information-body .label-input{
+					height: 20px;
+					min-width: 120px;
+					margin-top: 8px;
+				}
+				.box-content .box-body .box-body-frame .general-information-body .date-input{
+                    width: 125px;
+                    height: 30px;
+                }
+
+				.box-content .box-body .box-body-frame .general-information-body .date-input{
+					width: 125px;
+					height: 30px;
+				}
+
+				.box-content .box-body .box-body-frame .general-information-body .form-adsress{
+					height: 64px;
+					padding: 5px;
+					padding-bottom: 0px;
+					resize: none;
+				}
+				.select-more{
+					width: 100%;
+					display: flex;
+				}
+					.select-more .select-more-img{
+						min-height: 26px;
+						min-width: 28px;
+						outline: none;
+						border: 1px solid #d9d9d9;
+						border-radius: 4px;
+						border-top-left-radius: 0px;
+						border-bottom-left-radius: 0px;
+						border-left: 0px;
+						cursor: pointer;
+					}
+						.select-more .select-more-img img{
+							margin-top: 5px;
+							margin-left: 6px;
+						}
+				
+				.text-note-obligatory{
+					color: red;
+				}
+			/*Thong tin ban than*/
+    		.box-content .box-body .box-body-frame .general-information-body .G-I-body-seft{
+    			height: 232px;
+    			display: flex;
+    		}
+    			.box-content .box-body .box-body-frame .general-information-body .G-I-body-seft
+    			.G-I-body-seft-img-user{
+    				width: 120px;
+    				margin-left: 5px;margin-right: 10px;
+    			}
+    				.G-I-body-seft-img-user .btn-choser{
+    					height: 28px;
+					    width: 120px;
+					    cursor: pointer;
+					    background-color: gray;
+					    color: #fff;
+    					font-weight: bold;
+    					text-align: center;
+    					margin-top: -26px;
+    					border: none;
+    					outline: none;
+    				}
+    			.box-content .box-body .box-body-frame .general-information-body .G-I-body-seft 
+    			.G-I-body-seft-center{
+    				width: 46%;
+					padding-right: 20px;
+    			}
+
+    			.box-content .box-body .box-body-frame .general-information-body .G-I-body-seft 
+    			.G-I-body-seft-right{
+    				width: 45%;
+    			}
+    		
+
+    		/*Chung minh nhan dan va the can cuoc*/
+    		.box-content .box-body .box-body-frame .general-information-body .G-I-body-identification{
+    			height: 201px;
+    			margin-top: 20px;
+    			border-top: 1px solid #cfd8dc;
+    			padding:10px;
+    			display: flex;
+    			padding-bottom: 0;
+    			padding-right: 0;
+    		}
+    			.box-content .box-body .box-body-frame .general-information-body .G-I-body-identification
+    			.G-I-body-id-left{
+					width: 49%;
+					margin-right: 20px;
+
+    			}
+				
+				.box-content .box-body .box-body-frame .general-information-body .G-I-body-identification
+    			.G-I-body-id-right{
+    				width: 50%;
+    			}
+
+			/*Trinh do hoc van va Bang cap*/
+    		.box-content .box-body .box-body-frame .general-information-body .G-I-body-acedemic-level{
+    			height: 360px;
+    			margin-top: 20px;
+    			border-top: 1px solid #cfd8dc;
+    			display: flex;
+    			padding:10px;
+    			padding-bottom: 0;
+    			padding-right: 0;
+    		}
+    			.box-content .box-body .box-body-frame .general-information-body .G-I-body-acedemic-level
+    			.G-I-body-ace-left{
+					width: 49%;
+					margin-right: 20px;
+    			}
+					.box-content .box-body .box-body-frame .general-information-body .G-I-body-acedemic-level
+                    .G-I-body-ace-left #up-down-year{
+                        border-top-right-radius:0px;
+                        border-bottom-right-radius: 0px;
+                        border-right: none;
+                    }
+                    .box-content .box-body .box-body-frame .general-information-body .G-I-body-acedemic-level
+                    .G-I-body-ace-left .up-down-year{
+                        border: 1px solid #d9d9d9;
+                        border-radius: 4px;
+                        height: 30px;
+                        width: 18px;
+                        border-left: none;
+                        border-bottom-left-radius: 0px;
+                        border-top-left-radius: 0px;
+                    }
+                        .box-content .box-body .box-body-frame .general-information-body .G-I-body-acedemic-level
+                        .G-I-body-ace-left .up-down-year div:hover{
+                            background-color: #d9d9d9;
+                        }
+
+    			.box-content .box-body .box-body-frame .general-information-body .G-I-body-acedemic-level
+    			.G-I-body-ace-right{
+    				width: 50%;		
+    			}
+
+            /* Thong tin cong viec*/
+            .box-content .box-body .box-body-frame .general-information-body .G-I-body-work-info {
+                height: 400px;
+                margin-top: 20px;           
+                display: flex;
+                padding: 10px;
+                padding-bottom: 0;
+                padding-right: 0;
+            }
+
+                .box-content .box-body .box-body-frame .general-information-body .G-I-body-work-info
+                .G-I-body-id-left {
+                    width: 49%;
+                    margin-right: 20px;
+                }
+
+                .box-content .box-body .box-body-frame .general-information-body .G-I-body-work-info
+                .G-I-body-id-right {
+                    width: 50%;
+                }
+
+        /*Thong tin luong*/
+        .box-content .box-body .box-body-frame .general-information-body .G-I-body-salary-info {
+            height: 400px;
+            margin-top: 20px;
+            border-top: 1px solid #cfd8dc;
+            display: flex;
+            padding: 10px;
+            padding-bottom: 0;
+            padding-right: 0;
+        }
+
+            .box-content .box-body .box-body-frame .general-information-body .G-I-body-salary-info
+            .G-I-body-sal-left {
+                width: 49%;
+                margin-right: 20px;
+            }
+
+            .box-content .box-body .box-body-frame .general-information-body .G-I-body-salary-info
+            .G-I-body-sal-right {
+                width: 50%;
+            }
+
+#up-down-salary, #up-down-insurance, #up-down-bounty, #up-down-absent, #up-down-ratio {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: none;
+}
+
+.up-down-salary, .up-down-insurance, .up-down-bounty, .up-down-absent, .up-down-ratio {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    height: 28px;
+    width: 18px;
+    border-left: none;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+    .up-down-salary div:hover, .up-down-insurance div:hover, .up-down-bounty div:hover, .up-down-absent div:hover, .up-down-ratio div:hover {
+        background-color: #d9d9d9;
+    }
+
