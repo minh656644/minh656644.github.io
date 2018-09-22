@@ -1,0 +1,62 @@
+﻿[
+  {
+    "relationship_name": "Ông",
+    "relationshipg_group": "Ông Bà",
+    "note":  ""
+  },
+  {
+    "relationship_name": "Bà",
+    "relationshipg_group": "Ông Bà",
+    "note":  ""
+  },
+  {
+    "relationship_name": "Bố",
+    "relationshipg_group": "Bố mẹ",
+    "note":  ""
+  },
+  {
+    "relationship_name": "Mẹ",
+    "relationshipg_group": "Bố mẹ",
+    "note":  ""
+  },
+  {
+    "relationship_name": "Chồng",
+    "relationshipg_group": "Vợ chồng",
+    "note":  ""
+  },
+  {
+    "relationship_name": "Vợ",
+    "relationshipg_group": "Vợ chồng",
+    "note":  ""
+  },
+  {
+    "relationship_name": "Anh",
+    "relationshipg_group": "Anh chị em ruột",
+    "note":  ""
+  },
+  {
+    "relationship_name": "Chị",
+    "relationshipg_group": "Anh chị em ruột",
+    "note":  ""
+  },
+  {
+    "relationship_name": "Em trai",
+    "relationshipg_group": "Anh chị em ruột",
+    "note":  ""
+  },
+  {
+    "relationship_name": "Em gái",
+    "relationshipg_group": "Anh chị em ruột",
+    "note":  ""
+  },
+  {
+    "relationship_name": "Con gái",
+    "relationshipg_group": "Con",
+    "note":  ""
+  },
+  {
+    "relationship_name": "Con gái",
+    "relationshipg_group": "Con",
+    "note":  ""
+  }
+]

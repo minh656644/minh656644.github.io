@@ -1,0 +1,244 @@
+﻿.modal {
+    z-index: 12;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(204,204,204,.5);
+}
+
+    .modal .modal-contents {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #ffffff;
+    }
+    
+    .modal .modal-size {
+        width: 800px;
+        height: 600px;
+    }
+
+        .modal .modal-contents .modal-header {
+            position: relative;
+            height: 35px;
+            background: #0072BC;
+            padding: 0 15px;
+            display: flex;
+            /*cursor:move;*/
+        }
+
+            .modal .modal-contents .modal-header .modal-title{
+                color: #ffffff;
+                line-height: 35px;
+            }
+
+            .modal .modal-contents .modal-header .modal-button {
+                position: absolute;
+                right: 15px;
+                display: flex;
+            }
+
+                .modal .modal-contents .modal-header .modal-button .btn-maxsize {
+                    height: 35px;
+                    width: 35px;
+                    background-image: url('../Contents/Images/table/maxsize.png');
+                    background-repeat: no-repeat;
+                    background-position: 11px 11px;
+                    cursor: pointer;
+                }
+
+                .modal .modal-contents .modal-header .modal-button .btn-restore {
+                    height: 35px;
+                    width: 35px;
+                    background-image: url('../Contents/Images/table/restore.png');
+                    background-repeat: no-repeat;
+                    background-position: 11px 11px;
+                    cursor: pointer;
+                }
+
+                .modal .modal-contents .modal-header .modal-button .btn-close {
+                    height: 35px;
+                    width: 25px;
+                    background-image: url('../Contents/Images/table/window-close16.png');
+                    background-repeat: no-repeat;
+                    background-position: 9px 9px;
+                    cursor: pointer
+                }
+
+
+        .modal .modal-contents .modal-body {
+            position: absolute;
+            top: 35px;
+            bottom: 47px;
+            width: inherit;
+            padding: 8px 16px 0px 16px;
+            box-sizing: border-box;
+            overflow: auto;
+        }
+
+            .modal .modal-contents .modal-body table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+                .modal .modal-contents .modal-body table tr:nth-child(even) {
+                    background-color: #f2f2f2;
+                }
+
+                .modal .modal-contents .modal-body table tbody tr:hover {
+                    background-color: #DEEEFB;
+                }
+                
+                .modal .modal-contents .modal-body table thead td {
+                    background: #ffffff;
+                }
+                
+                    .modal .modal-contents .modal-body table thead td input{
+                        width: 100%;
+                        outline: none;
+                        border: none;
+                    }
+
+                    .modal .modal-contents .modal-body table tbody td .unchecked {
+                        display: block;
+                        width: 22px;
+                        height: 22px;
+                        background-image: url('../Contents/Images/img-add-member-2/input-checkbox.png');
+                        background-repeat: no-repeat;
+                        background-position: -23px 0px;
+                        margin-left: 50%;
+                        transform: translateX(-50%);
+                        cursor: pointer;
+                    }
+
+                    .modal .modal-contents .modal-body table tbody td .checked {
+                        display: block;
+                        width: 22px;
+                        height: 22px;
+                        background-image: url('../Contents/Images/img-add-member-2/input-checkbox.png');
+                        background-repeat: no-repeat;
+                        background-position: -23px -23px;
+                        margin-left: 50%;
+                        transform: translateX(-50%);
+                        cursor: pointer;
+                    }
+
+                    .modal .modal-contents .modal-body table thead td .checked {
+                        display: block;
+                        width: 22px;
+                        height: 22px;
+                        background-image: url('../Contents/Images/img-add-member-2/input-checkbox.png');
+                        background-repeat: no-repeat;
+                        background-position: -23px -23px;
+                        margin-left: 50%;
+                        transform: translateX(-50%);
+                    }
+
+                    .modal .modal-contents .modal-body table tr th {
+                        border: 1px solid #BFBFBF;
+                        box-sizing: border-box;
+                        height: 32px;
+                        background: #F0F0F0;
+                    }
+                    
+                    .modal .modal-contents .modal-body table tr th:first-of-type {
+                        width: 30%;
+                    }
+                    
+                    .modal .modal-contents .modal-body table tr th:last-of-type {
+                        width: 30%;
+                    }
+                     
+                     .modal .modal-contents .modal-body table tr th:nth-of-type(2) {
+                        width: 40%;
+                    }
+
+                    .modal .modal-contents .modal-body table tr td {
+                        border: 1px solid #BFBFBF;
+                        box-sizing: border-box;
+                        height: 32px;
+                        padding: 0 10px;
+                    }
+
+
+                .modal .modal-contents .modal-body table thead th, .modal .modal-contents .modal-body table thead td {
+                    border: 1px solid #808080;
+                }
+
+                .modal .modal-contents .modal-body table tbody .select-tr {
+                    background-color: #DEEEFB;
+                }   
+
+
+        .modal .modal-contents .modal-footer {
+            position: absolute;
+            bottom: 0px;
+            border-top: 1px solid #D9D9D9; 
+            width: inherit;
+            height: 47px;
+            padding: 8px 16px;
+            box-sizing: border-box;
+            display: flex;
+        }
+
+            .modal .modal-contents .modal-footer .button {
+                width: 75px;
+                height: 30px;
+                border: 1px solid #B0BEC5;
+                border-radius: 3px;
+                box-sizing: border-box;
+                padding: 0 4px;
+                display: flex;
+                cursor: pointer;
+            }
+
+                .modal .modal-contents .modal-footer .button:hover {
+                    background: #E2F1E9;
+                    border: 1px solid #037ABE;
+                }
+
+                .modal .modal-contents .modal-footer .button .icon-help {
+                    height: 30px;
+                    width: inherit;
+                    background-image: url('../Contents/Images/question16.png');
+                    background-repeat: no-repeat;
+                    background-position: 5px 5px;
+                }
+
+                .modal .modal-contents .modal-footer .text {
+                    line-height: 30px;
+                    padding: 0 6px;
+                }
+
+            .modal .modal-contents .modal-footer .box-right {
+                display: flex;
+                position: absolute;
+                right: 16px;
+            }
+
+                .modal .modal-contents .modal-footer .box-right .icon-select {
+                    height: 30px;
+                    width: inherit;
+                    background-image: url('../Contents/Images/select16.png');
+                    background-repeat: no-repeat;
+                    background-position: 5px 6px;
+                }
+
+                .modal .modal-contents .modal-footer .box-right .icon-close {
+                    height: 30px;
+                    width: inherit;
+                    background-image: url('../Contents/Images/close16.png');
+                    background-repeat: no-repeat;
+                    background-position: 5px 6px;
+                }
+                
+                .modal .modal-contents .modal-footer .box-right .button-select {
+                    margin-right: 10px;
+                }
+        
+            

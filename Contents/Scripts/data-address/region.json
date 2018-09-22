@@ -1,0 +1,254 @@
+﻿[
+  {
+    "region": "An Giang",
+    "country": "vn"
+  },
+  {
+    "region": "Đắk Nông",
+    "country": "vn"
+  },
+  {
+    "region": "Gia Lai",
+    "country": "vn"
+  },
+  {
+    "region": "Hậu Giang",
+    "country": "vn"
+  },
+  {
+    "region": "Hồ Chí Minh",
+    "country": "vn"
+  },
+  {
+    "region": "Kon Tum",
+    "country": "vn"
+  },
+  {
+    "region": "Long An",
+    "country": "vn"
+  },
+  {
+    "region": "Cần Thơ",
+    "country": "vn"
+  },
+  {
+    "region": "Đà Nẵng",
+    "country": "vn"
+  },
+  {
+    "region": "Hà Nội",
+    "country": "vn"
+  },
+  {
+    "region": "Hải Phòng",
+    "country": "vn"
+  },
+  {
+    "region": "Bà Rịa - Vũng Tàu",
+    "country": "vn"
+  },
+  {
+    "region": "Bắc Giang",
+    "country": "vn"
+  },
+  {
+    "region": "Bắc Kạn",
+    "country": "vn"
+  },
+  {
+    "region": "Bạc Liêu",
+    "country": "vn"
+  },
+  {
+    "region": "Bắc Ninh",
+    "country": "vn"
+  },
+  {
+    "region": "Bến Tre",
+    "country": "vn"
+  },
+  {
+    "region": "Binh Dương",
+    "country": "vn"
+  },
+  {
+    "region": "Bình Định",
+    "country": "vn"
+  },
+  {
+    "region": "Bình Phước",
+    "country": "vn"
+  },
+  {
+    "region": "Ninh Thuận",
+    "country": "vn"
+  },
+  {
+    "region": "Cà Mau",
+    "country": "vn"
+  },
+  {
+    "region": "Cao Bằng",
+    "country": "vn"
+  },
+  {
+    "region": "Điện Biên",
+    "country": "vn"
+  },
+  {
+    "region": "Đắc Lắc",
+    "country": "vn"
+  },
+  {
+    "region": "Đồng Nai",
+    "country": "vn"
+  },
+  {
+    "region": "Đồng Tháp",
+    "country": "vn"
+  },
+  {
+    "region": "Hà Giang",
+    "country": "vn"
+  },
+  {
+    "region": "Hà Nam",
+    "country": "vn"
+  },
+  {
+    "region": "Hà Tĩnh",
+    "country": "vn"
+  },
+  {
+    "region": "Hải Dương",
+    "country": "vn"
+  },
+  {
+    "region": "Hòa Bình",
+    "country": "vn"
+  },
+  {
+    "region": "Hưng Yên",
+    "country": "vn"
+  },
+  {
+    "region": "Khánh Hòa",
+    "country": "vn"
+  },
+  {
+    "region": "Kiên Giang",
+    "country": "vn"
+  },
+  {
+    "region": "Lai Châu",
+    "country": "vn"
+  },
+  {
+    "region": "Lâm Đồng",
+    "country": "vn"
+  },
+  {
+    "region": "Lạng Sơn",
+    "country": "vn"
+  },
+  {
+    "region": "Lào Cai",
+    "country": "vn"
+  },
+  {
+    "region": "TNam Định",
+    "country": "vn"
+  },
+  {
+    "region": "Nghệ An",
+    "country": "vn"
+  },
+  {
+    "region": "Ninh Bình",
+    "country": "vn"
+  },
+  {
+    "region": "Ninh Thuận",
+    "country": "vn"
+  },
+  {
+    "region": "Phú Thọ",
+    "country": "vn"
+  },
+  {
+    "region": "Phú Yên",
+    "country": "vn"
+  },
+  {
+    "region": "Quảng Bình",
+    "country": "vn"
+  },
+  {
+    "region": "Quảng Nam",
+    "country": "vn"
+  },
+  {
+    "region": "Quảng Ngãi",
+    "country": "vn"
+  },
+  {
+    "region": "Quảng Ninh",
+    "country": "vn"
+  },
+  {
+    "region": "Quảng Trị",
+    "country": "vn"
+  },
+  {
+    "region": "Sóc Trăng",
+    "country": "vn"
+  },
+  {
+    "region": "Sơn La",
+    "country": "vn"
+  },
+  {
+    "region": "Tây Ninh",
+    "country": "vn"
+  },
+  {
+    "region": "Thái Bình",
+    "country": "vn"
+  },
+  {
+    "region": "Thái Nguyên",
+    "country": "vn"
+  },
+  {
+    "region": "Thanh Hóa",
+    "country": "vn"
+  },
+  {
+    "region": "Thừa Thiên-Huế",
+    "country": "vn"
+  },
+  {
+    "region": "TIền Giang",
+    "country": "vn"
+  },
+  {
+    "region": "Trà Vinh",
+    "country": "vn"
+  },
+  {
+    "region": "Tuyên Quang",
+    "country": "vn"
+  },
+  {
+    "region": "Vĩnh Long",
+    "country": "vn"
+  },
+  {
+    "region": "Vĩnh Phúc",
+    "country": "vn"
+  },
+  {
+    "region": "Yên Bái",
+    "country": "vn"
+  }
+]
